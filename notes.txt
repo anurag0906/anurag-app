@@ -1,1 +1,7 @@
 npx create-react-app anurag-ap
+
+npm start
+
+# for accordion
+npm install react-icons
+
