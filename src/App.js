@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Accordion from './utils/Accordion';
 import Header from './Components/Header';
-import Table from './Components/Table';
+import Table from './Certifications/Table';
 
 function App() {
   return (

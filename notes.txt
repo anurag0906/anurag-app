@@ -5,3 +5,5 @@ npm start
 # for accordion
 npm install react-icons
 
+#for button
+npm i react-bootstrap 
