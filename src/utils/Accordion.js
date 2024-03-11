@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import data from './AccordionData'
 import AccordionItem from './AccordionItem'
-import './accordion.css'
+import '../Style/Accordion.css'
 
 
 // main Accordion component
