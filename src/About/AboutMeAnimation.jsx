@@ -1,15 +1,14 @@
 import { TypeAnimation } from 'react-type-animation';
-import MyData from './MyData';
 
 
 const AboutMeAnimation = () => {
   return (<div>
     <TypeAnimation
-    sequence={[
+      sequence={[
         // Same substring at the start will only be typed once, initially
-        'I am Anurag Shagun. I am a Designer ',
+        'I am Anurag Shagun. I am a Programmer ',
         1000,
-        'I am Anurag Shagun. I am a Developer',
+        'I am Anurag Shagun. I am a Designer',
         1000,
         'I am Anurag Shagun. I am a Solution Architect',
         1000,
@@ -20,8 +19,8 @@ const AboutMeAnimation = () => {
       style={{ fontSize: '3em' }}
       repeat={Infinity}
     />
-     </div>
+  </div>
   );
 };
 
-export  default AboutMeAnimation;
+export default AboutMeAnimation;
