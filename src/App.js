@@ -2,9 +2,8 @@ import './App.css';
 import Accordion from './Projects/Projects';
 import Header from './Components/MenuHeader';
 import CertificationTable from './Certifications/CertificationTable';
-//import Experience from './PastExp/Expereince.jsx';
 import './Style/Wave.css'
-
+import AboutMeAnime from './About/AboutMeAnimation';
 
  function App() {
 
@@ -17,7 +16,15 @@ import './Style/Wave.css'
 
               <div>
               <Header/>
-              </div>          
+              </div>   
+
+               <div className="main-content">
+              <h2>About me</h2>              
+              </div>
+              <div>
+                <AboutMeAnime/>
+              </div>
+
               <div> 
               <div className="main-content">
               <h2 id='certlist'>Certifications</h2>  
@@ -30,10 +37,7 @@ import './Style/Wave.css'
               </div>
                   <Accordion/>     
               </div>
-              <div className="main-content">
-              <h2>Education</h2>              
-              </div>
-              
+             
         </div>
   );
 } 

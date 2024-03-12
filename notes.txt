@@ -7,3 +7,6 @@ npm install react-icons
 
 #for button
 npm i react-bootstrap 
+
+#for about me animation
+npm i react-type-animation
