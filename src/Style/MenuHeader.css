@@ -5,18 +5,19 @@ Header stylesheet
 
 .header {  
     background-color: #8bc5bb;  
-    padding: 10px;          
+    padding: 10px;  
+    text-align: right;
   }  
     
   .menu {  
-    list-style-type:none;  
-    margin: 0;  
-    padding: 0;  
+    list-style-type:none;
     display: ruby;  
+    text-align: center;
   }  
     
   .menu li {  
     margin-right: 30px;  
+    text-align: center;
   }  
     
   .menu li a {  
@@ -28,7 +29,7 @@ Header stylesheet
   }  
     
   .menu li a:hover {  
-    background-color: #afa9a9;  
+    background-color: #d8e945;  
     
   }  
   

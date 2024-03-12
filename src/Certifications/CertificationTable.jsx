@@ -1,10 +1,10 @@
 import React from 'react';  
-import '../Style/Table.css'
-import data from './CertificationData'
-import { Button } from "react-bootstrap"; // Assuming you are using react-bootstrap  
+import '../Style/CertificationTable.css'
+import certData from './CertificationData'
+import { Button } from "react-bootstrap"; 
 
 
-class CertTableComp extends React.Component {  
+class CertificationTable extends React.Component {  
     state = {  
       hoverIndex: null  
     };  
@@ -21,7 +21,7 @@ class CertTableComp extends React.Component {
    
       const { hoverIndex } = this.state;  
     
-      const tableRows = data.map((item, index) => {  
+      const tableRows = certData.map((item, index) => {  
         return (  
           <tr key={item.id}  
           onMouseEnter={() => this.handleMouseEnter(index)}  
@@ -47,24 +47,11 @@ class CertTableComp extends React.Component {
             </tr>  
           </thead>  
           <tbody>  
-          {tableRows}  
-        {/*     {data.map((item, index) => (  
-              <tr  
-                key={item.id}  
-                onMouseEnter={() => this.handleMouseEnter(index)}  
-                onMouseLeave={this.handleMouseLeave}  
-                className={hoverIndex === index ? 'hovered' : ''}  
-              >  
-                <td>{item.name}</td>  
-                <td>{item.CertId}</td>  
-                <td>{item.Resource}</td>  
-              </tr>  
-            ))}  
- */}
+          {tableRows}
           </tbody>  
         </table>  
       );  
     }  
   }  
     
-export default CertTableComp;  
+export default CertificationTable;  

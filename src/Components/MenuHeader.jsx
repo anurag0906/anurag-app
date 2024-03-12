@@ -1,8 +1,8 @@
 import React from 'react';  
-import '../Style/Header.css'
+import '../Style/MenuHeader.css'
 
 
-class Header extends React.Component {  
+class MenuHeader extends React.Component {  
   render() {  
     return (  
       <div className="header">  
@@ -10,8 +10,8 @@ class Header extends React.Component {
           <li><a href="#">Home</a></li>  
           <li><a href="#">About me</a></li>
           <li><a href="#">Tech Skills</a></li>  
-          <li><a href="#">Projects</a></li>  
-          <li><a href="#">Certifications</a></li>
+          <li><a href="projectlist">Projects</a></li>  
+          <li><a href="certlist">Certifications</a></li>
           <li><a href="#">Education</a></li>    
         </ul>  
       </div>  
@@ -19,4 +19,4 @@ class Header extends React.Component {
   }  
 }  
   
-export default Header;  
+export default MenuHeader;  
