@@ -10,3 +10,21 @@ npm i react-bootstrap
 
 #for about me animation
 npm i react-type-animation
+
+#github deploy
+npm install gh-pages --save-dev  
+"homepage": "https://anurag0906.github.io/anurag-app/",  
+
+"scripts": {  
+  "predeploy": "npm run build",  
+  "deploy": "gh-pages -d build"  
+}  
+
+
+npm run build  
+npm run deploy  
+
+
+#issues and fixes
+# 'react-scripts' is not recognized as an internal or external command,
+#fix- npm install react-scripts --save
