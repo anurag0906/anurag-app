@@ -5,7 +5,6 @@ const AboutMeAnimation = () => {
   return (<div>
     <TypeAnimation
       sequence={[
-        // Same substring at the start will only be typed once, initially
         'I am Anurag Shagun. I am a Programmer ',
         1000,
         'I am Anurag Shagun. I am a Designer',

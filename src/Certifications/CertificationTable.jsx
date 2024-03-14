@@ -30,7 +30,7 @@ class CertificationTable extends React.Component {
           <td>{item.name}</td>
 
           <td>{item.Verify === '' ? item.CertId : <Button className="btn btn-primary" variant="primary" target='_blank' href={item.Verify}>{item.CertId}</Button>}   </td>
-          <td> 
+          <td>
             {/* {item.logo===''? '' : <img src={require('../img/aws.JPG')} height={100} width={100}  alt='image not found'/> }<br/> */}
             <Button className="btn btn-primary" variant="primary" target='_blank' href={item.Resource}>Learn more</Button>
           </td>
