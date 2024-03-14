@@ -4,6 +4,7 @@ import Header from './Components/MenuHeader';
 import CertificationTable from './Certifications/CertificationTable';
 import './Style/Wave.css'
 import AboutMeAnime from './About/AboutMeAnimation';
+import AboutMeDesc from './About/AboutMeDesc';
 
 function App() {
 
@@ -23,6 +24,10 @@ function App() {
       </div>
       <div>
         <AboutMeAnime />
+      </div>
+
+      <div>
+        <AboutMeDesc/>
       </div>
 
       <div>
