@@ -34,6 +34,9 @@ class CertificationTable extends React.Component {
             {/* {item.logo===''? '' : <img src={require('../img/aws.JPG')} height={100} width={100}  alt='image not found'/> }<br/> */}
             <Button className="btn btn-primary" variant="primary" target='_blank' href={item.Resource}>Learn more</Button>
           </td>
+          <td>
+            {item.duration}
+          </td>
         </tr>
       );
     });
@@ -43,8 +46,9 @@ class CertificationTable extends React.Component {
         <thead>
           <tr>
             <th>Certification Name</th>
-            <th>Certification ID</th>
+            <th>Credential ID</th>
             <th>Resources</th>
+            <th>Timeline</th>
           </tr>
         </thead>
         <tbody>
